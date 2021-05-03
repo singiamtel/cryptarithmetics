@@ -36,3 +36,9 @@ A solution will be considered valid when:
 - The equation is true
 
 No input can be over 10 unknowns, as we're solving only for [0,9]
+
+# Try it out
+
+You can compile the binary executing `make`, then running `./crypt`
+
+If you don't have a C++ environment, or would just rather try it online, you can do it [here](https://onlinegdb.com/BynUnR3wd)
