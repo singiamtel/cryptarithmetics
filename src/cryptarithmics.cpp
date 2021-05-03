@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 const std::vector<std::string> summands {"CP", "IS", "FUN"};
-std::string solution = "TRUE";
+const std::string solution = "TRUE";
 /* Another example could be:
 * {"POCO", "POCO", "POCO", "POCO", "POCO", "POCO", "POCO", "POCO", "POCO",
 * "POCO", "POCO", "POCO", "POCO", "POCO", "POCO"} => "MUCHO"
@@ -86,6 +86,10 @@ int main(void) {
 	for(auto i : solution){
 		if (std::find(lettersDic.begin(), lettersDic.end(), std::pair<char, int>(i, -1)) == lettersDic.end())
 				lettersDic.push_back(std::pair<char, int>(i, -1));
+	}
+	if(lettersDic.size() > 10){
+		std::cout<<"Problem parameters invalid: more than 10 unknowns\n";
+		return 1;
 	}
 	recurse(0);
 	return 0;
