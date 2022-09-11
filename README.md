@@ -12,7 +12,7 @@ This small program intends to demonstrate how you could solve any alphametics pr
 	  CP
 	  IS
 +	 FUN
--------------
+--------------------------
 	TRUE
 ```
 
@@ -22,7 +22,7 @@ One solution to this problem would be:
 	  23
 	  78
 +	 945
--------------
+--------------------------
 	1046
 ```
 
