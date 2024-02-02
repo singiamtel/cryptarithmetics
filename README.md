@@ -4,7 +4,7 @@
 
 _Via [Wikipedia](https://en.wikipedia.org/wiki/Verbal_arithmetic)_
 
-This small program intends to demonstrate how you could solve any alphametics problem using backtracking. (This is not the most efficient way to solve them, Diophantine equations would outperform this method)
+This small program intends to demonstrate how you could solve any alphametics problem using backtracking. (This is not the most efficient way to solve them, [Diophantine equations](https://en.wikipedia.org/wiki/Diophantine_equation) would outperform this method)
 
 # Example problem
 
